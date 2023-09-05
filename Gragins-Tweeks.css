@@ -1,0 +1,53 @@
+/**
+* @name Gragins Tweeks
+* @version 1.0
+* @description Tweeks: RadialStatus, Full Bios, RoleTint, No Nitro Bullshit
+* @credit: Gragin
+* @author Gragin
+* @source https://www.youtube.com/watch?v=dQw4w9WgXcQ
+* @Contact no
+*/
+@import url('');
+
+@import url('');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url("https://raw.githubusercontent.com/lumap/css-snippets/main/make-bios-long.css");
+@import url("https://minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css");
+.buttons-uaqb-5>.button-ejjZWC:first-child,
+.link-39sEB3[href="/store"],
+[class*="badgeContainer-"]:has([class*="bogoTrialBadge-"]),
+[class*="giftCodeContainer-"]:first-child,
+[aria-label="Customize your own profile theme, banner, animated avatar, and more with Nitro!"],
+.containerWithMargin-1CVXAM {
+  display: none;
+}
+.pronouns-17_QV6 {
+  color: var(--text-normal);
+  background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-primary-color) 60px,var(--profile-gradient-secondary-color));
+  padding: 2px 8px;
+  margin-top: 3px;
+  border-radius: 4px;
+}
+
+:root {
+    /**
+    DONT TOUTCHY, THATS NO NO
+    */
+    
+    
+--rs-small-spacing: 1px;
+--rs-medium-spacing: 1px;
+--rs-large-spacing: 4px;
+--rs-small-width: 2px;
+--rs-medium-width: 4px;
+--rs-large-width: 4px;
+--rs-avatar-shape: 50%;
+--rs-online-color: #43b581;
+--rs-idle-color: #faa61a;
+--rs-dnd-color: #f04747;
+--rs-offline-color: #555d66;
+--rs-streaming-color: #643da7;
+--rs-invisible-color: #747f8d;
+--rs-phone-visible: block;
+--rs-show-platformindicators: none;
+}
