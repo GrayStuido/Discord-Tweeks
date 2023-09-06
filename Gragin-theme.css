@@ -1,0 +1,65 @@
+    /**
+    This Enables Themes | DONT TOUTCHY
+    */
+
+@import url('https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css');
+
+
+
+
+    /**
+    This Changes The Server List To Be On The Top Part Of Your Screen
+    */
+
+/**
+@import url('https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css');
+*/
+
+@import url('');
+:root {
+
+    /**
+This changes the Main Stuff You Will See
+    */
+--app-bg: url('https://wallpapers.com/images/hd4/4k-space-purple-nebula-9l0wgukn25jl3pgq.jpg');
+--button-color: #9419b3;
+--sidebar-color: rgba(29, 7, 32, 0.4);
+--main-content-color: rgba(25, 2, 31, 0.2);
+--popout-color: rgba(54, 22, 54, 0.329);
+
+    /**
+    This Changes The Button Colors And Stuff
+    */
+--accent-hue: 570;
+--accent-saturation: 100%;
+--accent-opacity: 1;
+--accent-text-color: #ffffff;
+    /**
+    This Changes The Buttons Color When You Hover Over Them
+    */
+--button-action-color: #cc00ffbd;
+
+    /**
+    This Changes The Idk Thinggy
+    */
+--card-color: rgba(119, 0, 255, 0.11);
+--card-color-hover: rgb(55, 13, 63);
+
+    /**
+    DONT TOUTCHY, THATS NO NO
+    */
+--rs-small-spacing: 1px;
+--rs-medium-spacing: 1px;
+--rs-large-spacing: 4px;
+--rs-small-width: 2px;
+--rs-medium-width: 4px;
+--rs-large-width: 4px;
+--rs-avatar-shape: 50%;
+--rs-online-color: #43b581;
+--rs-idle-color: #faa61a;
+--rs-dnd-color: #f04747;
+--rs-offline-color: #555d66;
+--rs-streaming-color: #643da7;
+--rs-invisible-color: #747f8d;
+--rs-phone-visible: block;
+}
