@@ -17,6 +17,24 @@
   border-radius: 4px;
 }
 
+[class^=content]:has(> video[data-testid="app-spinner"]) {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    translate: 25%;
+    width: 200px;
+    height: 180px;
+    background-image: url('https://media.discordapp.net/stickers/1217112512374505613.png?size=320') !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  video { visibility: hidden; }
+}
+
 :root {
     /**
     DONT TOUTCHY, THATS NO NO
