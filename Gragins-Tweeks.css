@@ -9,6 +9,10 @@
   -webkit-line-clamp: 9999999;
 }
 
+[class^="descriptionClamp_"] {
+    display: block!important;
+}
+
 [class*=viewFullBio] {
   display: none;
 }
