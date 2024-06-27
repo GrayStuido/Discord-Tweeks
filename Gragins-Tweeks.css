@@ -79,3 +79,29 @@
 --rs-phone-visible: block;
 --rs-show-platformindicators: none;
 }
+
+/* fix webm */
+[class*="inlineMediaEmbed"] {
+  max-height: max-content !important;
+  max-width: max-content !important;
+}
+
+[class*="loadingOverlay"] {
+  aspect-ratio: unset !important;
+}
+
+[class*="imageWrapper"] {
+  aspect-ratio: unset !important;
+  width: max-content !important;
+  height: max-content !important;
+}
+
+[class*="oneByOneGrid"] {
+  max-height: max-content !important;
+}
+
+[class*="wrapperPaused"] {
+  width: max-content;
+  height: max-content;
+}
+
