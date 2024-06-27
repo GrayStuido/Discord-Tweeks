@@ -2,6 +2,18 @@
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url("https://raw.githubusercontent.com/lumap/css-snippets/main/make-bios-long.css");
 @import url("https://minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css");
+
+/* no line clamp on new profiles */
+
+[class*=descriptionClamp] {
+  -webkit-line-clamp: 9999999;
+}
+
+[class*=viewFullBio] {
+  display: none;
+}
+
+
 .buttons-uaqb-5>.button-ejjZWC:first-child,
 .link-39sEB3[href="/store"],
 [class*="badgeContainer-"]:has([class*="bogoTrialBadge-"]),
