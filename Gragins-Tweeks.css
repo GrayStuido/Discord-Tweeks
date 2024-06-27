@@ -2,7 +2,10 @@
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url("https://raw.githubusercontent.com/lumap/css-snippets/main/make-bios-long.css");
 @import url("https://minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css");
-
+@import url("https://aushevahmad.github.io/awesome-css/modules/custom-bar-prompt.css");
+:root {
+    --prompt-text: "be silly :3"; /* replace --prompt-text with your desired text if you want */
+}
 /* no line clamp on new profiles */
 
 [class*=descriptionClamp] {
@@ -16,6 +19,8 @@
 [class*=viewFullBio] {
   display: none;
 }
+
+
 
 
 .buttons-uaqb-5>.button-ejjZWC:first-child,
